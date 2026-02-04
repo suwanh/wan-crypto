@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>加解密数据</title>
+  <link rel="stylesheet" type="text/css" href="./src/popup.css">
+  <script type="module" src="./src/popup.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1>加解密数据</h1>
+    
+    <div class="input-section">
+      <label for="inputText">输入数据</label>
+      <textarea
+        id="inputText"
+        rows="5"
+        placeholder="输入需要加解密的数据"></textarea>
+    </div>
+
+    <div class="button-container">
+      <button id="llgEncrypt">流量果加密</button>
+      <button id="llgDecrypt">流量果解密</button>
+      <button id="ytEncrypt">优投加密</button>
+      <button id="ytDecrypt">优投解密</button>
+      <button id="xmjzEncrypt">小鸣建站加密</button>
+      <button id="xmjzDecrypt">小鸣建站解密</button>
+      <button id="CPAEncrypt">网服CPA加密</button>
+      <button id="CPADecrypt">网服CPA解密</button>
+      <button id="json">JSON解析</button>
+    </div>
+
+    <div class="output-section">
+      <label for="outputText">输出结果</label>
+      <textarea
+        id="outputText"
+        rows="5"
+        placeholder="输出加解密的数据"></textarea>
+    </div>
+  </div>
+</body>
+
+</html>
